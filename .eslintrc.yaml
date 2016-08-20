@@ -1,0 +1,98 @@
+env:
+  browser: true
+parser: 'babel-eslint'
+rules:
+  # Possible Errors
+  no-cond-assign: error
+  no-console: warn
+  no-constant-condition: warn
+  no-debugger: warn
+  no-dupe-args: error
+  no-dupe-keys: error
+  no-duplicate-case: error
+  no-empty-character-class: warn
+  no-empty: warn
+  no-ex-assign: error
+  no-extra-boolean-cast: warn
+  no-func-assign: error
+  no-invalid-regexp: error
+  no-irregular-whitespace: error
+  no-obj-calls: error
+  no-sparse-arrays: error
+  no-unexpected-multiline: error
+  no-unreachable: error
+  use-isnan: error
+  valid-typeof: error
+
+  # Best Practices
+  block-scoped-var: error
+  curly: [error, all]
+  dot-notation: error
+  eqeqeq: error
+  no-else-return: error
+  no-empty-pattern: error
+  no-eq-null: error
+  no-eval: error
+  no-fallthrough: error
+  no-floating-decimal: error
+  no-implicit-coercion: error
+  no-multi-spaces: error
+  no-native-reassign: error
+  no-param-reassign: error
+  no-proto: error
+  no-redeclare: error
+  no-return-assign: error
+  no-script-url: error
+  no-self-assign: error
+  no-self-compare: error
+  no-unused-labels: warn
+  radix: error
+
+  # Strict Mode
+  strict: error
+
+  # Variables
+  no-delete-var: error
+  no-undef-init: error
+  no-undef: error
+  no-undefined: error
+  no-unused-vars: warn
+  no-use-before-define: [error, {functions: false, classes: true}]
+
+  # Stylistic Issues
+  array-bracket-spacing: [error, never]
+  brace-style: [error, stroustrup]
+  camelcase: error
+  comma-dangle: [error, always-multiline]
+  comma-spacing: error
+  comma-style: [error, last]
+  computed-property-spacing: [error, never]
+  consistent-this: [error, self]
+  eol-last: error
+  func-style: [error, declaration]
+  indent: [error, 2]
+  key-spacing: [error, {mode: strict}]
+  no-lonely-if: error
+  no-multiple-empty-lines: [warn, {max: 2, maxEOF: 1}]
+  no-nested-ternary: error
+  no-spaced-func: error
+  no-trailing-spaces: error
+  no-unneeded-ternary: error
+  object-curly-spacing: [error, never]
+  one-var: [error, never]
+  operator-assignment: [error, always]
+  quotes: [error, single]
+  semi: [error, never]
+  keyword-spacing: error
+  space-before-blocks: error
+  space-before-function-paren: [error, never]
+  space-in-parens: [error, never]
+  space-infix-ops: error
+  space-unary-ops: error
+  spaced-comment: error
+
+  # ECMAScript 6
+  arrow-spacing: error
+  no-var: error
+  prefer-const: warn
+  prefer-template: error
